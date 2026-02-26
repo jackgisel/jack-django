@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Home | Jack Django{% endblock %}
+
+{% block content %}
+<div class="text-center py-12">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">Jack Django</h1>
+    <p class="text-lg text-gray-600 mb-8">
+        Django + Postgres + Redis + Celery + Tailwind + HTMX + Django-Bolt
+    </p>
+    <div class="space-x-4">
+        <a href="{% url 'admin:index' %}"
+           class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+            Admin Panel
+        </a>
+        <a href="/api/docs"
+           class="inline-block bg-gray-200 text-gray-800 px-6 py-3 rounded-lg hover:bg-gray-300 transition">
+            API Docs
+        </a>
+    </div>
+</div>
+{% endblock %}

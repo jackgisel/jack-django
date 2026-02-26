@@ -1,0 +1,17 @@
+.git
+.gitignore
+.env
+.venv
+__pycache__
+*.pyc
+.mypy_cache
+.ruff_cache
+.pytest_cache
+node_modules
+staticfiles/
+.django_tailwind_cli/
+*.egg-info
+.DS_Store
+docker-compose.yml
+Makefile
+README.md

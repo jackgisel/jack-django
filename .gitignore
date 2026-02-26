@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+
+# Environment
+.env
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+# Tailwind CLI binary
+.django_tailwind_cli/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
